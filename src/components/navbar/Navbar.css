@@ -1,0 +1,153 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+.search{
+    display: flex;
+}
+.input{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: .3rem;
+    border: 2px solid var(--main-color);
+    border-radius: .5rem;
+    margin-top: .5rem;
+    
+}
+.language{
+    font-size: 1.2rem;
+    margin:.5rem;
+}
+.search__btn{
+    margin: .5rem;
+    margin-top: .7rem;
+    font-size: 1.5rem;
+    background-color: var(--main-color);
+   border-radius: .2rem;
+}
+.logo{
+    display: flex;
+    justify-content: start;
+}
+.logo__gif img{
+    width: 50%;
+}
+.logo__title{
+    font-size: 1.6rem;
+    margin-left: -2rem;
+    font-weight: 600;
+    color: var(--main-color);
+}
+.right__div{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.shopping__cart img{
+    width: 80%;
+}
+.resister{
+    font-size: 1.2rem;
+    margin-top: .3rem;
+}
+.sign__in{
+    font-size: 1.2rem;
+    margin-top: .3rem;
+}
+.resister:hover{
+    color: var(--main-color);
+}
+.sign__in:hover{
+    color: var(--main-color);
+}
+.shopping__cart{
+    width: 50px;
+}
+
+.hamburger{
+    font-size: 1.5rem;
+    margin-top: .4rem;
+    margin-right: .5rem;
+}
+.right__div-close{
+    display: none;
+}
+
+
+@media screen and (max-width:770px){
+ .right__div{
+    display: flex;
+    flex-direction: column;
+  margin-right: -2rem;
+  position: absolute;
+ border-radius: .5rem;
+ padding: .5rem;
+  right: 5rem;
+  background-color:#fff;  
+   
+ }
+}
+
+@media screen and (min-width:770px){
+.hamburger{
+    display: none;
+}
+}
+
+
+@media screen and (max-width:550px){
+
+    .logo__gif img{
+        width: 30%;
+        margin-top: .3rem;
+    }
+    .logo__title{
+        font-size: 1rem;
+        margin-left: -4rem;
+        font-weight: 600;
+        color: var(--main-color);
+    }
+
+    .input{
+        background-color: rgba(0, 0, 0, 0.1);
+        border: 2px solid var(--main-color);
+        border-radius: .5rem;
+        margin-top: .5rem;
+        padding: 0;
+        width: 6rem;
+        
+    }
+    .language{
+        font-size: .8rem;
+        margin:.5rem;
+    }
+    .search__btn{
+        margin: .5rem;
+        margin-top: .7rem;
+        font-size: 1rem;
+        background-color: var(--main-color);
+       border-radius: .2rem;
+    }
+    .hamburger{
+        font-size: 1rem;
+    }
+    .navbar{
+        height: 2rem;
+    }
+}
+
+@media screen and (max-width:300px){
+        .input{
+            margin-left: -.4rem;
+        }
+        .logo__gif{
+            display: none;
+        }
+        .logo__title{
+        
+            margin-left: -2.2rem;
+            margin-right: -2rem;
+            margin-top: .2rem;
+        }
+}

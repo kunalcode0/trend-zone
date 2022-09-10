@@ -1,0 +1,125 @@
+.slider__container{
+    padding: 3rem 4rem;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+.slider__img img{
+    width: 80%;
+    height: 25rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+.slider__img{
+    width: 50%;
+    margin: 1rem;
+}
+
+.slider__content{
+    display: flex;
+    border-radius: 3rem;
+    border: 2px solid grey;
+
+    
+}
+.swiper-slide{
+    border-radius: 3rem;
+}
+.slider__description{
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-left: -2rem;
+}
+.slider__description h2{
+    font-size: 1.3rem;
+}
+.slider__btn{
+    color: #fff;
+    background-color: var(--main-color);
+    padding: .6rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: .6rem;
+    margin-top: 2rem;
+}
+.slider__btn:hover{
+    background-color: var(--light-blue);
+    animation:  ease-out;
+    scale: 1.1;
+    
+}
+
+@media screen and (max-width:1024px) {
+
+    .slider__container{
+        margin: 2rem 2rem;
+    }
+}
+
+@media screen and (max-width:880px){
+    .slider__container{
+        margin: 2rem .3rem;
+    }
+} 
+
+
+@media screen and (max-width:850px){
+    .slider__content{
+        display: block;
+        padding: 1.5rem;
+    }
+    .slider__img {
+        margin: auto;
+        width: 100%;
+        
+    }
+    .slider__img img{
+        height: 30rem;
+        margin-bottom: 0;
+    }
+    .slider__container{
+        justify-content: center;
+    }
+    .slider__btn{
+        margin-bottom: 3rem;
+    }
+    
+}
+
+@media screen and (max-width:550px){
+    .slider__img {
+        margin: auto;
+        width: 100%;
+        
+    }
+    .slider__img img{
+        height: 15rem;
+        margin-bottom: 0;
+    }
+    .slider__description h1{
+        font-size: 1.2rem;
+    }
+    .slider__description h2{
+        font-size: .8rem;
+    }
+    .slider__btn{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+}
+
+@media screen and (max-width:400px){
+    .slider__container{
+      padding: 2rem 1rem;
+    }   
+}
+
+@media screen and (max-width:550px){
+    .slider__container{
+        padding: 1rem .5rem ;
+    }   
+
+}

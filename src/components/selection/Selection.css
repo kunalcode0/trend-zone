@@ -1,0 +1,144 @@
+.selection__container{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.left__selection{
+    display: flex;
+    gap: 1.5rem;
+    margin: 1rem;
+}
+.size{
+    display: flex;
+    gap: .5rem;
+    
+}
+.size select{
+    border: 1px solid gray;
+  
+}
+
+.color select{
+    border: 1px solid gray;
+  
+}
+
+.timing select{
+    border: 1px solid gray;
+  
+}
+.size P{
+    font-size: 1.3rem;
+}
+
+.color P{
+    font-size: 1.3rem;
+}
+.timing P{
+    font-size: 1.3rem;
+}
+.color{
+    display: flex;
+    gap: .5rem;
+}
+.timing{
+    display: flex;
+    gap: .5rem;
+}
+.right__selection{
+    display: flex;
+    margin: 1rem;
+}
+#select1,
+#select2,
+#select3{
+    font-size: 1.2rem;
+    border-radius: .5rem;
+    color: var(--main-color);
+}
+
+@media screen and (max-width:800px){
+    .left__selection{
+        display: flex;
+        gap: 1.5rem;
+        margin: 1rem;
+    }
+    .selection__container{
+        display: block;
+        justify-content: space-between;
+       
+    }
+
+}
+
+
+@media screen and (max-width:550px){
+  
+
+.left__selection{
+   
+    gap: 1rem;
+    margin: 1rem;
+}
+.size{
+    display: flex;
+    gap: .5rem;
+    
+}
+.size select{
+    border: 1px solid gray;
+  
+}
+
+.color select{
+    border: 1px solid gray;
+  
+}
+
+.timing select{
+    border: 1px solid gray;
+  
+}
+.size P{
+    font-size: .8rem;
+}
+
+.color P{
+    font-size: .8rem;
+}
+.timing P{
+    font-size: .8rem;
+}
+.color{
+    display: flex;
+    gap: .5rem;
+}
+.timing{
+    display: flex;
+    gap: .5rem;
+}
+.right__selection{
+    display: flex;
+    margin: 1rem;
+}
+#select1,
+#select2,
+#select3{
+    font-size: .7rem;
+    border-radius: .5rem;
+    color: var(--main-color);
+}
+}
+
+
+@media screen and (max-width:300px){
+    .left__selection{
+        display: block;
+        gap: 1.5rem;
+        margin: 1rem;
+    }
+    .color{
+        margin-top: 1rem;
+    }
+}
+
