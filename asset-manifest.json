@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/trend-zone/static/css/main.789f11db.css",
+    "main.js": "/trend-zone/static/js/main.b0d77e8f.js",
+    "static/media/basket.gif": "/trend-zone/static/media/basket.106adf243b405bfcf87d.gif",
+    "static/media/navgif.gif": "/trend-zone/static/media/navgif.47fabbeddafa7c597e77.gif",
+    "index.html": "/trend-zone/index.html",
+    "main.789f11db.css.map": "/trend-zone/static/css/main.789f11db.css.map",
+    "main.b0d77e8f.js.map": "/trend-zone/static/js/main.b0d77e8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.789f11db.css",
+    "static/js/main.b0d77e8f.js"
+  ]
+}
